@@ -337,6 +337,7 @@ margin: 0 auto;
 
 .team-card{
     margin: 20px;
+    display:flex;
 }
 .t-body{
 
