@@ -349,6 +349,16 @@ margin: 0 auto;
     color: #f9f9f9;
 }
 
+.members{
+    width:60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 .achieve{
 width:50%;
 margin:0 auto;
