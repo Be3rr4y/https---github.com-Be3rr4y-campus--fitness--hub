@@ -338,8 +338,10 @@ margin: 0 auto;
 .team-card{
     margin: 20px;
     display:flex;
+    width:100%;
 }
-.t-body{
+.t-body, .right{/* images and the body in the team cards*/
+    width:50%;
 
 }
 .team{
