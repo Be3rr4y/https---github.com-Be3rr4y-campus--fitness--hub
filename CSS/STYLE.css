@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Open Sans',sans-serif ;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background: white;
+    color:  #2E8B57;
+    display: flex;
+padding: 25px;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.hd .nav{
+    width: 50%;
+
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+
+}
+
+
+.nav a{
+
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffae2b;
+    font-weight: 600;
+    transition: 0.3s;
+    background: #337a52;
+    padding: 15px;
+    border: none;
+border-radius: 25px;
+ 
+
+}
+.nav a:hover{
+    color:  white;
+    background: grey;
+    text-decoration: underline;
+
+}
+.hero{
+    background-image: url("/IMAGES/friends-training-together-outdoors.jpg");
+text-align: center;
+
+color: white;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.hero h1 , .Contact h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+padding-top: 300px;
+}
+.hero p ,.Contact p{
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.hero button{
+    background: #F39C12 ;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hero button:hover{
+    background: #2E8B57;
+}
+
+.mission{/* mission  section */
+    text-align: center;
+    padding: 80px 60px;
+    background-color: #ffffff;
+
+}
+.mission h2{
+    font-family:'Poppins', sans-serif;
+    font-size: 32px;
+    color: #2E8B57;
+    margin-bottom: 20px;
+}
+.mission p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.activities{/*activities*/
+padding: 80px 60px;
+background-color: #f4f4f4;
+text-align: center;
+}
+.activities h2{
+    font-family: 'Poppins',sans-serif;
+    color: #2E8B57 ;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+.activity-container , .info-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    background: white;
+    padding:30px ;
+    border-radius:15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:280px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+ 
+
+.card h3{
+    color: #F39C12;
+    font-family:'Poppins', sans-serif ;
+    margin-bottom:15px ;
+}
+.quote{/* quote*/
+    background-color: #E8F5E9 ;
+    text-align:center ;
+    padding: 60px 20px;
+    font-style:italic ;
+    font-size:21px ;
+    color:#333 ;
+}
+
+.quote h4{
+    margin-top: 15px;
+    font-weight:600px ;
+    font-style: normal;
+}
+.cta{/* call to action*/
+background-color: #4b9d6e;
+color: white;
+text-align: center;
+padding: 80px 20px;
+}
+.cta h2{
+font-family: 'Poppins',sans-serif;
+font-size: 32px;
+margin-bottom:25px ;
+
+}
+
+.cta button{
+    background: white;
+    color:#2E8B57 ;
+    border:none ;
+    padding:12px 30px ;
+    border-radius:25px ;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cta button:hover{
+    background:#F39C12;
+    color: white;
+}
+footer{
+    background: #1E5631 ;
+    color:white ;
+text-align:center ;
+padding: 20px;
+font: size 14px; ;
+
+}
+footer a{
+    color: #F39C12;
+    text-decoration:none ;
+    margin:0 5px ;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #f4f4f4;
+}
+
+
+
+/* contact page*/
+.Contact{
+    background-image:url("/IMAGES/phone.jpg") ;
+
+text-align: center;
+
+color: white;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.ctxt, .hero-text{
+width: 50%;
+margin: 0 auto;
+
+
+
+
+}
+    
+ .Contact-info{
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 80px 60px ;
+    justify-items: center;
+    gap: 30px;
+justify-content: center;
+
+ }
+    
+    .info{
+        padding: 40px 30px;
+    border-radius:15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:280px;
+    transition: 0.3s;
+    background: white;
+margin: 0 20px;
+
+    
+    }
+
+    .info:hover{
+        transform: translateY(-5px);
+    }
+
+.ct-form{/*form*/
+
+background: white;
+text-align: left;
+padding: 60px 20px;
+
+
+
+
+}
+.ct-form h2{
+    color: #2E8B57 ;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+     font-family:'Open Sans',sans-serif ;
+}
+
+ form button{
+    background-color: #F39C12;
+    color: white;
+    border: none;
+    padding:12px 30px ;
+    border-radius:25px ;
+    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ form button:hover{
+    background-color:  #2E8B57;
+ }
+
+
+
+ .about{
+    background-color: #2E8B57;
+    padding: 30px;
+ }
+
+.story{
+    background-color:#E8F5E9;
+}
+
+.mission-vision{
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    background:#f4f4f4 ;
+    
+}
+
+.mv{
+width: 80%;
+margin: 0 auto;
+
+}
+
+.team-card img{
+    width: 80%;
+    height: 15vh;
+    
+}
+
+.team-card{
+    margin: 20px;
+}
+.t-body{
+
+}
+.team{
+    background-color:#8abb9f ;
+    padding: 30px;
+    color: #f9f9f9;
+}
+
+.achieve{
+width:50%;
+margin:0 auto;
+color:#085759;
+
+}
+
+.Achievements{
+background-color:#F9F9F9;
+padding:30px;}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:400px){
+   header{
+
+    display: flex;
+    justify-content: space-between;
+align-items: flex-start;
+    padding:5px;
+    
+   }
+header .hd{
+    width: 30%;
+    margin: 0 auto;
+padding:  5px;
+
+}
+
+
+header .logo{
+    
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+
+
+nav a{
+
+   width: 100%; 
+    font-size:  15px;
+    
+
+    
+    padding: 0;
+border-radius: 0;
+
+
+
+}
+.row img{
+width:100%;
+
+
+
+
+
+}
